@@ -31,7 +31,7 @@ If you prefer to run the script directly, ensure you have **Python 3.10+** insta
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/TheQber/MiniMediaController-Windows.git
-    cd YOUR_REPO
+    cd ~/MiniMediaController-Windows/
     ```
 2.  **Install the required libraries:**
     ```bash
