@@ -21,7 +21,7 @@ A lightweight, persistent, "Always-on-Top" media controller for Windows. This ap
 ## 🚀 How to Get the App
 
 ### Option 1: Download the EXE (Easiest)
-1.  Navigate to the **[Releases](https://github.com/YOUR_USERNAME/YOUR_REPO/releases)** tab.
+1.  Navigate to the **[Releases](https://github.com/TheQber/MiniMediaController-Windows/releases)** tab.
 2.  Download the `MiniMediaController.exe` file.
 3.  **Note:** Because this is an unsigned community tool, Windows Defender may show a "Windows protected your PC" popup. Click **More Info** -> **Run Anyway**.
 
@@ -30,7 +30,7 @@ If you prefer to run the script directly, ensure you have **Python 3.10+** insta
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/YOUR_REPO.git](https://github.com/YOUR_USERNAME/YOUR_REPO.git)
+    git clone [https://github.com/TheQber/MiniMediaController-Windows.git](https://github.com/TheQber/MiniMediaController-Windows.git)
     cd YOUR_REPO
     ```
 2.  **Install the required libraries:**
@@ -54,7 +54,7 @@ If you want to modify the code and package your own executable:
     ```
 2.  Run the build command:
     ```bash
-    pyinstaller --noconsole --onefile --name "MiniMediaController" media_controller.py
+    pyinstaller --noconsole --onefile --name "MiniMediaController" Windows_Media_Controller.py
     ```
 3.  Your standalone app will be waiting in the `dist/` folder.
 
